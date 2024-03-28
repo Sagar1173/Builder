@@ -1,0 +1,141 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+.hero{
+  height: 90vh;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.background-img-hero{
+  opacity:0.7;
+  background-image: linear-gradient(105deg, rgba(3, 2, 2, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%, transparent 50%), url('/evelynbackground.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-blend-mode:overlay; 
+}
+.get-margin{
+  margin-top:200px;
+}
+.builder-bg{
+  background-image:url('/yellow.png');
+  
+}
+
+
+
+/* -------------img containers--------------- */
+.image-container {
+  width: 100px; /* Adjust this according to your design */
+  height: 100px; /* Adjust this according to your design */
+  overflow: hidden; /* This ensures the image stays within the container */
+  border-radius: 50%; /* Make the container circular */
+}
+
+.circular-image {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+}
+
+.for-rent-container{
+  width: 200px; /* Adjust this according to your design */
+  height: 150px; /* Adjust this according to your design */
+  border-radius: 12px;
+  overflow: hidden;
+  
+}
+.for-rent-img{
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Ensure the image fills the container */
+  object-fit: contain;
+  object-position: center;
+  
+}
+
+.admin-getmargin{
+  margin-top:20px;
+}
+
+
+
+.dustbin-container{
+ 
+    width: 40px; /* Adjust this according to your design */
+    height: 40px; /* Adjust this according to your design */
+    overflow: hidden; /* This ensures the image stays within the container */
+    background-color: #fff;  
+      
+}
+.dustbin-img{
+  width: 100%; 
+  height: 100%;
+  background-color: #fafafa;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* btn colors */
+
+.btn-bluegreen-outline{
+  background-color: none;
+  border: 2px solid rgb(59, 182, 165);
+  border-radius: 20px;
+}
+.bluegreen{
+  color:rgb(59, 182, 165);
+}
+.btn-black-outline{
+  border:2px solid rgb(34, 33, 33);
+  border-radius: 20px;
+}
+.peach-button {
+  background-color: rgb(250, 52, 85); /* Peach color */
+  color: #fff; /* White text */
+  padding: 7px 16px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add slight border-radius for a rounded look */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Hover state */
+.peach-button:hover {
+  background-color: rgb(241, 76, 103); /* Lighter peach color on hover */
+  color: #fff;
+}
+.my-btn{
+  border: none;
+  background-color: #fafafa;
+}
+.dropdown-width{
+  border: none;
+  width: 260px;
+}
+
+.svg-readjust{
+  height:30px;
+  width:30px;
+}
+
+/* text c0lor */
+.text-peach{
+  color : rgb(241, 76, 103);
+}
+
+.no-border{
+  border: none;
+
+}
