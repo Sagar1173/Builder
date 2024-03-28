@@ -1,7 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
-*{
-  font-family: 'Courier New', Courier, monospace;
-}
+
+
+  .border-bottom{
+    border-bottom: 30px solid #4ADE80;
+    top:0;
+    left:0;
+  }
+
 .hero{
   height: 90vh;
   margin-top: 25px;
@@ -19,12 +23,13 @@
   margin-top:200px;
 }
 .builder-bg{
-  background-image:url('/yellow.png');
-  
+
+  background-image:url('/yellow.png'); 
+  background-size:contain;
+  background-repeat:repeat;
+  border: none;
+  background-color:#fff;
 }
-
-
-
 /* -------------img containers--------------- */
 .image-container {
   width: 100px; 
@@ -51,22 +56,15 @@
   height: 100%; 
   object-fit: contain;
   object-position: center;
-  
 }
-
 .admin-getmargin{
   margin-top:20px;
 }
-
-
-
 .dustbin-container{
- 
     width: 40px; 
     height: 40px; 
     overflow: hidden;
-    background-color: #fff;  
-      
+    background-color: #fff;       
 }
 .dustbin-img{
   width: 100%; 
@@ -75,27 +73,16 @@
   object-fit: contain;
   object-position: center;
   border-radius: 15px;
-
 }
-
-
-
-
-
-
-
-
-
-
 /* btn colors */
-
 .btn-bluegreen-outline{
   background-color: none;
-  border: 2px solid rgb(59, 182, 165);
+  border: 2px solid rgb(59, 182, 165) !important;
   border-radius: 20px;
 }
-.bluegreen{
-  color:rgb(59, 182, 165);
+.eye-svg{
+  height: 35px;
+  width: 25px;
 }
 .btn-black-outline{
   border:2px solid rgb(34, 33, 33);
@@ -110,8 +97,6 @@
   border-radius: 4px; 
   cursor: pointer; 
 }
-
-
 .peach-button:hover {
   background-color: rgb(241, 76, 103); 
   color: #fff;

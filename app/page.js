@@ -11,7 +11,11 @@ export default function Home() {
           <div className="col-8 ">
 
             <div className="">
-            <div className="d-flex justify-content-center fw-bolder fs-3 ">Builder Login</div>
+            <div className="d-flex justify-content-center fw-bolder fs-3 position-relative">
+            <span className="position-absolute border-bottom" ></span>
+              <div className="">Builder Login</div>
+              
+              </div>
             <div className="d-flex justify-content-center mb-4">Login to upload your projects</div>
             <div class="mb-3 ">
               <input type="email" class="form-control p-4" id="exampleFormControlInput1" placeholder="Email or username" />
