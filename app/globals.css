@@ -27,28 +27,28 @@
 
 /* -------------img containers--------------- */
 .image-container {
-  width: 100px; /* Adjust this according to your design */
-  height: 100px; /* Adjust this according to your design */
-  overflow: hidden; /* This ensures the image stays within the container */
-  border-radius: 50%; /* Make the container circular */
+  width: 100px; 
+  height: 100px; 
+  overflow: hidden; 
+  border-radius: 50%; 
 }
 
 .circular-image {
-  width: 100%; /* Ensure the image fills the container */
-  height: 100%; /* Ensure the image fills the container */
-  object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
 }
 
 .for-rent-container{
-  width: 200px; /* Adjust this according to your design */
-  height: 150px; /* Adjust this according to your design */
+  width: 200px; 
+  height: 150px;
   border-radius: 12px;
   overflow: hidden;
   
 }
 .for-rent-img{
-  width: 100%; /* Ensure the image fills the container */
-  height: 100%; /* Ensure the image fills the container */
+  width: 100%; 
+  height: 100%; 
   object-fit: contain;
   object-position: center;
   
@@ -62,9 +62,9 @@
 
 .dustbin-container{
  
-    width: 40px; /* Adjust this according to your design */
-    height: 40px; /* Adjust this according to your design */
-    overflow: hidden; /* This ensures the image stays within the container */
+    width: 40px; 
+    height: 40px; 
+    overflow: hidden;
     background-color: #fff;  
       
 }
@@ -102,18 +102,18 @@
   border-radius: 20px;
 }
 .peach-button {
-  background-color: rgb(250, 52, 85); /* Peach color */
-  color: #fff; /* White text */
-  padding: 7px 16px; /* Adjust padding as needed */
-  font-size: 16px; /* Adjust font size as needed */
-  border: none; /* Remove default button border */
-  border-radius: 4px; /* Add slight border-radius for a rounded look */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  background-color: rgb(250, 52, 85); 
+  color: #fff; 
+  padding: 7px 16px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
 }
 
-/* Hover state */
+
 .peach-button:hover {
-  background-color: rgb(241, 76, 103); /* Lighter peach color on hover */
+  background-color: rgb(241, 76, 103); 
   color: #fff;
 }
 .my-btn{
