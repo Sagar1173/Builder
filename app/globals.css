@@ -1,11 +1,16 @@
 
 
-  .border-bottom{
-    border-bottom: 30px solid #4ADE80;
-    top:0;
-    left:0;
-  }
-
+.border-bottom-parent{
+  position: relative;
+}
+.border-bottom-child{
+  position: absolute;
+  width:200px;
+  top:25px;
+  left: 70;
+  border-bottom: 10px solid rgb(250, 233, 2,0.5);
+  z-index: -1;
+}
 .hero{
   height: 90vh;
   margin-top: 25px;
@@ -24,9 +29,9 @@
 }
 .builder-bg{
 
-  background-image:url('/yellow.png'); 
+  background-image:url('/yellow1.png'); 
   background-size:contain;
-  background-repeat:repeat;
+  background-repeat:no-repeat;
   border: none;
   background-color:#fff;
 }
